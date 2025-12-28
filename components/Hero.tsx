@@ -27,7 +27,7 @@ const Hero = () => {
                             filter={true}
                             duration={0.7}
                         />
-                        <p className='mt-6 text-center text-black/70 dark:text-white/70 md:text-lg leading-relaxed tracking-wide'>
+                        <p className='mt-3 text-center text-black/70 dark:text-white/70 md:text-lg leading-relaxed tracking-wide'>
                             Hi, I&apos;m SUJAN, a passionate web developer building dynamic and responsive web applications using Next.js.
                         </p>
                         <a href="#about">
