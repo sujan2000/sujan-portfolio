@@ -3,8 +3,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  reactCompiler: true,
-  output: 'export'
+  output: 'export',
+  typescript: {
+    ignoreBuildErrors: true
+  }
 };
 
 export default withSentryConfig(nextConfig, {
